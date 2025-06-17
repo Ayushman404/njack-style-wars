@@ -43,11 +43,8 @@ This project delivers an **aesthetic light-themed web page** that feels modern, 
 
 ---
 
-### 🌀 About Section (Parallax Scroll)
-- Implements a **CSS-only parallax effect**:  
-  - Hero stays fixed as the About section scrolls over it  
-- Keywords are **highlighted** using gradients and focus effects to draw attention  
-- Smooth entry animations for textual content  
+### 🌀 About Section  
+- Keywords are **highlighted** using gradients and focus effects to draw attention    
 - Enhances **user engagement and reading flow**
 
 ---
