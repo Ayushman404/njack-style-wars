@@ -1,14 +1,12 @@
-# 🌞 Light Side – Frontend Challenge Submission
+# 🌞 Light Side – Style Wars Submission
 
 Welcome to the **Light Side** — a visually rich, CSS-only project crafted for a frontend design challenge with strict HTML constraints.
-
-This project showcases creativity under limitation, achieving smooth interactions, modern visuals, and refined theming without touching the HTML structure beyond allowed classes and wrappers.
 
 ---
 
 ## 📌 Challenge Rules Followed
 
-✅ **No modification of HTML structure** (only `class`, `id`, or wrapper `<div>` allowed)  
+✅ **No modification of HTML content** (only `class`, `id`, or wrapper `<div>, <span>` used)  
 ✅ **No added SVGs, images, or external content in HTML**  
 ✅ **Only CSS and Tailwind used** – no JS, no assets, no DOM changes  
 
@@ -43,11 +41,8 @@ This project delivers an **aesthetic light-themed web page** that feels modern, 
 
 ---
 
-### 🌀 About Section (Parallax Scroll)
-- Implements a **CSS-only parallax effect**:  
-  - Hero stays fixed as the About section scrolls over it  
-- Keywords are **highlighted** using gradients and focus effects to draw attention  
-- Smooth entry animations for textual content  
+### 🌀 About Section  
+- Keywords are **highlighted** using gradients and focus effects to draw attention    
 - Enhances **user engagement and reading flow**
 
 ---
