@@ -20,6 +20,13 @@ This project delivers an **aesthetic light-themed web page** that feels modern, 
 
 ---
 
+## Screenshots
+
+![Hero Section](screenshots/hero.png)
+![About Section](screenshots/about.png)
+![Virtues Section](screenshots/virtues.png)
+![CTA & Footer Section](screenshots/cta.png)
+
 ## 💡 Key Sections & Effects
 
 ### NavBar
@@ -89,4 +96,4 @@ This project delivers an **aesthetic light-themed web page** that feels modern, 
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/Ayushman404/WebDev/njack-style-wars.git
+   git clone .https://github.com/Ayushman404/njack-style-wars.git
