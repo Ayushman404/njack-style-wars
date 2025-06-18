@@ -121,7 +121,6 @@
             width: 100%;
         }
 
-        /* 2. Glowing hover orb behind link */
         .hover-light {
             position: absolute;
             top: 50%;
@@ -142,7 +141,6 @@
             opacity: 1;
         }
 
-        /* 3. Navbar fade-in */
         .navbar-wrapper {
             animation: navbarFadeIn 0.6s ease forwards;
         }
@@ -236,17 +234,20 @@
             }
         }
 
-        .hero {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: 0;
+        .cta-shine{
+            background: linear-gradient(120deg,
+                    #24789f 20%,
+                    #176688 40%,
+                    #158295 60%);
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            user-select: none;
         }
 
-        .hero-spacer {
-            height: 100vh;
+        .cta-shine:hover{
+            animation: shine 1s linear 1;
         }
     </style>
 </head>
@@ -365,7 +366,7 @@
                     </p>
                 </div>
 
-                <div class="space-y-4">
+                <div class="space-y-4 border-l-2 border-sky-300 pl-5">
                     <h3 class="text-2xl font-bold text-sky-800 border-l-4 border-sky-400 pl-4 mt-4 tracking-wide">Our
                         Mission</h3>
 
@@ -413,20 +414,20 @@
                                 class="text-2xl font-bold text-sky-800 tracking-wide group-hover:text-sky-600 transition">
                                 Clarity</h3>
                             <h4 class="text-lg font-semibold mt-4 text-sky-600">Simple and Intuitive</h4>
-                            <p class="text-gray-800 text-lg md:text-[19px] lg:text-[17px] text-base leading-relaxed mt-2">
+                            <p class="text-gray-800 text-lg md:text-[1.1rem] lg:text-[17px] text-base leading-relaxed mt-2">
                                 Every element is placed with purpose. We minimize clutter and use
                                 whitespace to guide the eye, ensuring users can focus on what
                                 matters most. Navigation menus are straightforward, and content is structured logically
                                 to reduce cognitive load.
                             </p>
                             <h4 class="text-lg font-semibold mt-4 text-sky-600">Readable Typography</h4>
-                            <p class="text-gray-800 text-base leading-relaxed text-lg md:text-[19px] lg:text-[17px] mt-2">
+                            <p class="text-gray-800 text-base leading-relaxed text-lg md:text-[1.1rem] lg:text-[17px] mt-2">
                                 Fonts are chosen for legibility and comfort. Headings stand out, and
                                 body text is easy to scan and understand. We pay close attention to line height, font
                                 size,
                                 and contrast, making sure that every word is a pleasure to read.
                             </p>
-                            <p class="text-gray-800 text-base leading-relaxed text-lg md:text-[19px] lg:text-[17px] mt-4">
+                            <p class="text-gray-800 text-base leading-relaxed text-lg md:text-[1.1rem] lg:text-[17px] mt-4">
                                 Clarity also means clear calls to action. Buttons are distinct, and
                                 links are descriptive, guiding users effortlessly through the site.
                             </p>
@@ -445,20 +446,20 @@
                                 class="text-2xl font-bold text-sky-800 tracking-wide group-hover:text-sky-600 transition">
                                 Openness</h3>
                             <h4 class="text-lg font-semibold mt-4 text-sky-600">Welcoming Layouts</h4>
-                            <p class="text-gray-800 text-base text-lg md:text-[19px] lg:text-[17px] leading-relaxed mt-2">
+                            <p class="text-gray-800 text-base text-lg md:text-[1.1rem] lg:text-[17px] leading-relaxed mt-2">
                                 Our pages invite exploration, with open navigation and clear calls
                                 to action. We avoid barriers, making information accessible to all.
                                 Whether you’re browsing on a phone, tablet, or desktop, our layouts
                                 adapt to your needs.
                             </p>
                             <h4 class="text-lg font-semibold mt-4 text-sky-600">Inclusive Design</h4>
-                            <p class="text-gray-800 text-base text-lg md:text-[19px] lg:text-[17px] leading-relaxed mt-2">
+                            <p class="text-gray-800 text-base text-lg md:text-[1.1rem] lg:text-[17px] leading-relaxed mt-2">
                                 Accessibility is a priority. We use high-contrast colors,
                                 descriptive links, and ensure our sites work for everyone. Our
                                 designs are tested with screen readers and keyboard navigation to
                                 guarantee universal usability.
                             </p>
-                            <p class="text-gray-800 text-base text-lg md:text-[19px] lg:text-[17px] leading-relaxed mt-4">
+                            <p class="text-gray-800 text-base text-lg md:text-[1.1rempx] lg:text-[17px] leading-relaxed mt-4">
                                 Openness also means sharing knowledge. We publish guides, host Q&A
                                 sessions, and encourage members to contribute resources for the
                                 benefit of the whole community.
@@ -478,20 +479,20 @@
                                 class="text-2xl font-bold text-sky-800 tracking-wide group-hover:text-sky-600 transition">
                                 Energy</h3>
                             <h4 class="text-lg font-semibold mt-4 text-sky-600">Vibrant Visuals</h4>
-                            <p class="text-gray-800 text-base text-lg md:text-[19px] lg:text-[17px] leading-relaxed mt-2">
+                            <p class="text-gray-800 text-base text-lg md:text-[1.1rem] lg:text-[17px] leading-relaxed mt-2">
                                 Bright accents and uplifting imagery keep users engaged and
                                 motivated. We use color to create a positive, energetic atmosphere.
                                 Visual cues such as icons, highlights, and banners help direct
                                 attention and add personality to our designs.
                             </p>
                             <h4 class="text-lg font-semibold mt-4 text-sky-600">Interactive Experiences</h4>
-                            <p class="text-gray-800 text-base text-lg md:text-[19px] lg:text-[17px] leading-relaxed mt-2">
+                            <p class="text-gray-800 text-base text-lg md:text-[1.1rem] lg:text-[17px] leading-relaxed mt-2">
                                 Subtle animations and responsive feedback make every interaction
                                 enjoyable and intuitive. Hover effects, transitions, and
                                 micro-interactions bring the interface to life without overwhelming
                                 the user.
                             </p>
-                            <p class="text-gray-800 text-base text-lg md:text-[19px] lg:text-[17px] leading-relaxed mt-4">
+                            <p class="text-gray-800 text-base text-lg md:text-[1.1rem] lg:text-[17px] leading-relaxed mt-4">
                                 Energy is about momentum. We encourage users to participate, share
                                 feedback, and become a part of the Light Side’s ongoing story.
                             </p>
@@ -519,14 +520,14 @@
 
         <div
             class="max-w-4xl mx-auto relative z-10 text-center bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl px-8 py-16 ring-1 ring-sky-200">
-            <h2 class="text-5xl font-DM-Serif text-sky-700 font-bold mb-6 drop-shadow-sm">Ready to Shine?</h2>
+            <h2 class="text-5xl font-DM-Serif text-sky-700 font-bold mb-6 drop-shadow-sm">Ready to <span class="cta-shine">Shine</span>?</h2>
             <p class="text-gray-800 text-lg leading-relaxed mt-4">
                 <span class="border-l-4 border-sky-300 pl-2">Become a part of the Light Side and help us set new
                     standards for web
                     design excellence. Sign up to receive updates, participate in our next
                     workshop, or contribute your own ideas to our growing community.</span>
             </p>
-            <ul class="list-disc list-inside text-gray-700 mt-6 text-base text-lg md:text-[17px] text-left max-w-2xl mx-auto">
+            <ul class="list-disc list-inside text-gray-700 mt-6 text-base text-lg md:text-[1.1rem] text-left max-w-2xl mx-auto">
                 <li class="transition duration-500 ease-in-out transform hover:opacity-100">
                     Sign up for our newsletter to get the latest resources and event
                     invites.
